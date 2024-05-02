@@ -12,3 +12,4 @@ def test_line_chart(client):
     assert response.status_code == 200
     assert b'Line Chart' in response.data
     assert b'myChart' in response.data  # Check if canvas element exists
+
